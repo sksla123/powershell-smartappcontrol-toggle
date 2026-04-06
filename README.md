@@ -6,7 +6,7 @@ Windows 11의 **Smart App Control(SAC)** 정책으로 인해 개발 도구(gcc, 
 >
 > **스크립트 실행 전, 하단의 [⚠️ 주의사항 및 면책 조항](#️-주의사항-및-면책-조항-disclaimer) 내용을 반드시 숙지하시기 바랍니다. 본 도구 사용으로 인한 시스템 설정 변경 및 결과에 대한 책임은 사용자 본인에게 있습니다.**
 > 
-> **Please read the [⚠️ Disclaimer](#-주의사항-및-면책-조항-disclaimer) section at the bottom carefully before running the script. If you are not fluent in Korean, please use a translator to ensure you fully understand the terms. You are solely responsible for any system configuration changes or consequences resulting from the use of this tool.**
+> **Please read the [⚠️ Disclaimer](#️-주의사항-및-면책-조항-disclaimer) section at the bottom carefully before running the script. If you are not fluent in Korean, please use a translator to ensure you fully understand the terms. You are solely responsible for any system configuration changes or consequences resulting from the use of this tool.**
 
 ## 📋 개요
 Smart App Control은 AI 기반의 보안 기능이지만, 서명되지 않은 바이너리나 로컬 컴파일러를 빈번하게 사용하는 개발 환경에서는 심각한 워크플로우 저해를 초래합니다. 본 도구는 레지스트리 값을 직접 수정하여 SAC 상태를 신속하게 전환(Toggle)할 수 있도록 돕습니다.
