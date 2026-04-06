@@ -32,7 +32,7 @@ Smart App Control(SAC)에 의해 가장 빈번하게 오탐(False Positive)으�
 
 ### 1. 초기 설정 (Shortcut Setup)
 먼저 시작 메뉴에 실행 아이콘을 등록합니다.
-* `Setup_Shortcut.ps1` 파일을 마우스 우클릭 후 **[PowerShell에서 실행]**을 선택합니다.
+* `add_to_startmenu.ps1` 파일을 마우스 우클릭 후 **[PowerShell에서 실행]**을 선택합니다.
 * 시작 메뉴에 **노란색 방패 아이콘(⚠️)**의 `Toggle Smart App Control` 항목이 생성됩니다.
 
 ### 2. 정책 전환 (Toggling)
@@ -41,8 +41,8 @@ Smart App Control(SAC)에 의해 가장 빈번하게 오탐(False Positive)으�
 3. **[중요]** 레지스트리 수정 후 시스템에 정책을 완전히 반영하려면 **재부팅**이 권장됩니다.
 
 ## 📂 파일 구조
-* `Toggle_SAC.ps1`: 상태 확인 및 레지스트리 수정을 담당하는 메인 로직
-* `Setup_Shortcut.ps1`: 시작 메뉴 바로가기 생성 및 아이콘(imageres.dll, 79) 설정 스크립트
+* `toggle_SAC.ps1`: 상태 확인 및 레지스트리 수정을 담당하는 메인 로직
+* `add_to_startmenu.ps1`: 시작 메뉴 바로가기 생성 및 아이콘(imageres.dll, 79) 설정 스크립트
 
 
 ## ⚠️ 주의사항 및 면책 조항 (Disclaimer)
